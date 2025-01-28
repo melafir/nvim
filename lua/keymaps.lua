@@ -8,4 +8,4 @@ vim.keymap.set("n","-","<cmd>lua MiniFiles.open()<CR>")
 
 vim.keymap.set("n","<leader>bh","<cmd>bprevious<CR>")
 vim.keymap.set("n","<leader>bl","<cmd>bnext<CR>")
-vim.keymap.set("n","<leader>bk","<cmd>bd<CR>")
+vim.keymap.set("n","<leader>bk","<cmd>bd!<CR>")
