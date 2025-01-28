@@ -20,5 +20,6 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
   spec = {
 	  {"Mofiqul/vscode.nvim", config = function() vim.cmd.colorscheme "vscode" end},
+	  {import = "config.plugins"},
   },
 })
