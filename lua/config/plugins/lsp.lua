@@ -6,15 +6,10 @@ return{
     lsp.clangd.setup{
    --  capabilities = require('blink.cmp').get_lsp_capabilities(lsp.clangd.capabilities)
     }
-    lsp.ts_ls.setup{
-  -- capabilities = require('blink.cmp').get_lsp_capabilities(lsp.ts_ls.capabilities)
-     }
-    lsp.html.setup{
- --  capabilities = require('blink.cmp').get_lsp_capabilities(lsp.ts_ls.capabilities)
-     }
-    lsp.cssls.setup{
---   capabilities = require('blink.cmp').get_lsp_capabilities(lsp.ts_ls.capabilities)
-     }
+    lsp.ts_ls.setup{}
+    lsp.html.setup{}
+    lsp.cssls.setup{}
+    lsp.lua_ls.setup{}
     end
   },
 {
