@@ -1,6 +1,9 @@
 return {
 	{ 'echasnovski/mini.nvim', 
 	config = function()
+    require('mini.icons').setup({
+      style='ascii'
+    })
 		require('mini.statusline').setup({
 			use_icons=true,
 		})
