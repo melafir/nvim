@@ -1,11 +1,11 @@
 return {
-	{ 'echasnovski/mini.nvim', 
+	{ 'echasnovski/mini.nvim',
 	config = function()
     require('mini.icons').setup({
       style='ascii'
     })
 		require('mini.statusline').setup({
-			use_icons=true,
+			use_icons=false,
 		})
 		require('mini.tabline').setup()
 		require('mini.files').setup()

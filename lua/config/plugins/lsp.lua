@@ -10,6 +10,8 @@ return{
     lsp.html.setup{}
     lsp.cssls.setup{}
     lsp.lua_ls.setup{}
+    lsp.pyright.setup{}
+    lsp.gopls.setup{}
     end
   },
 {
@@ -78,9 +80,9 @@ return{
     -- elsewhere in your config, without redefining it, due to `opts_extend`
     sources = {
       default = { 
+      'snippets', 
         'lsp',
       'path', 
-      'snippets', 
       --'buffer' 
       },
     },

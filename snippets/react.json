@@ -1,0 +1,30 @@
+{
+  "Tag any": {
+    "prefix": "tag",
+    "body": [
+      "<${1}>${0}</${1}>"
+    ]
+  },
+  "Div tag": {
+    "prefix": "div",
+    "body": [
+      "<div>${0}</div>"
+    ]
+  },
+  "Headers tags": {
+    "prefix": "hs",
+    "body": [
+      "<h${1}>${0}</h${1}>"
+    ]
+  },
+  "React functional component": {
+    "prefix": "recf",
+    "body": [
+      "function ${TM_FILENAME_BASE}(){",
+      "    return (",
+      "    ${0}",
+      ")}",
+      "export default ${TM_FILENAME_BASE}"
+    ]
+  }
+}
